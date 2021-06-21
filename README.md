@@ -18,7 +18,7 @@ You can easily use custom dataLayer, multiple dataLayers and additional events.
 [npm](https://www.npmjs.com/):
 
 ```bash
-npm install react-gtm-module --save
+npm i react-gtm-module-lifetri
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ import Router from 'react-router'
 import routes from './routes'
 
 ...
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm-module-lifetri'
 
 const tagManagerArgs = {
     gtmId: 'GTM-000000'
@@ -57,7 +57,7 @@ import Router from 'react-router'
 import routes from './routes'
 
 ...
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm-lifetri'
 
 const tagManagerArgs = {
     gtmId: 'GTM-000000',
@@ -89,7 +89,7 @@ import Router from 'react-router'
 import routes from './routes'
 
 ...
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm-module-lifetri'
 
 const tagManagerArgs = {
     gtmId: 'GTM-000000',

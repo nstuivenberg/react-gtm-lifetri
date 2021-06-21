@@ -1,7 +1,7 @@
 {
   "name": "react-gtm-module-lifetri",
-  "version": "2.0.11",
-  "description": "React Google Tag Manager Module",
+  "version": "2.0.12",
+  "description": "React Google Tag Manager Module version Lifetri",
   "main": "dist/index.js",
   "scripts": {
     "lint": "eslint .",
