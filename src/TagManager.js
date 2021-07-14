@@ -17,10 +17,8 @@ const TagManager = {
 
     const script = (nonce) => {
       const script = document.createElement('script')
-      console.log("The value of nonce:")
-      console.log(nonce)
       if (nonce) {
-        script.setAttribute('nonce', "sjaak");
+        script.setAttribute('nonce', nonce);
       }
       script.innerHTML = snippets.script
       return script

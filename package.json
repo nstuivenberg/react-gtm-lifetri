@@ -1,6 +1,6 @@
 {
   "name": "react-gtm-module-lifetri",
-  "version": "2.0.15-alpha-2",
+  "version": "2.0.15-alpha-3",
   "description": "React Google Tag Manager Module version Lifetri",
   "main": "dist/index.js",
   "scripts": {
