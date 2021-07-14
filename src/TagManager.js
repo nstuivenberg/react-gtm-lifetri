@@ -40,7 +40,7 @@ const TagManager = {
       dataLayerName: dataLayerName,
       auth,
       preview,
-      nonce: nonce || undefined,
+      nonce: "nonce-test",
     })
     if (dataLayer) document.head.appendChild(gtm.dataScript)
     document.head.insertBefore(gtm.script(nonce), document.head.childNodes[0])
