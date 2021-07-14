@@ -17,8 +17,10 @@ const TagManager = {
 
     const script = (nonce) => {
       const script = document.createElement('script')
+      console.log("The value of nonce:")
+      console.log(nonce)
       if (nonce) {
-        script.setAttribute('nonce', nonce);
+        script.setAttribute('nonce', "sjaak");
       }
       script.innerHTML = snippets.script
       return script
@@ -40,7 +42,7 @@ const TagManager = {
       dataLayerName: dataLayerName,
       auth,
       preview,
-      nonce: "nonce-test",
+      nonce: nonce || undefined,
     })
     if (dataLayer) document.head.appendChild(gtm.dataScript)
     document.head.insertBefore(gtm.script(nonce), document.head.childNodes[0])
